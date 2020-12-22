@@ -17,5 +17,5 @@ export class BusinessPartnerController {
 function getAllBusinessPartners(): Promise<BusinessPartner[]> {
   return BusinessPartner.requestBuilder()
     .getAll()
-    .execute({ destinationName: 'myDestination' });
+    .execute({ destinationName: 'E4D' });
 }
